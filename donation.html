@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Donation Information</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="logo-image">
+                <img src="./logo.png" alt="">
+            </div>
+            <div class="logo-name">
+                Volunteer<br> OutReach
+            </div>
+        </div>
+        <hr>
+        <div class="menu-items">
+            <ul class="navLinks">
+                <li class="navList">
+                    <a href="index.html">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span class="links">Dashboard</span>
+                    </a>
+                </li>
+                <li class="navList">
+                    <a href="content.html">
+                        <ion-icon name="folder-outline"></ion-icon>
+                        <span class="links">Content</span>
+                    </a>
+                </li>
+                <li class="navList">
+                    <a href="event.html">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <span class="links">Events</span>
+                    </a>
+                </li>
+                <li class="navList active">
+                    <a href="#">
+                        <ion-icon name="wallet-outline"></ion-icon>
+                        <span class="links">Donations</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="bottom-link">
+                <li>
+                    <a href="#">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                        <span class="links">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <a href="#">
+                        <ion-icon name="moon-outline"></ion-icon>
+                        <span class="links">Dark Mode</span>
+                        <div class="darkToggle">
+                            <span class="switch"></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <ion-icon class="navToggle" name="menu-outline"></ion-icon>
+            <div class="searchBox">
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="text" placeholder="Search">
+            </div>
+            <img src="./logo.png" alt="">
+        </div>
+        <div class="container">
+            <div class="donation-header">
+                <h2>Donation Information</h2>
+            </div>
+            <div class="donation-body">
+                <div class="donation-box">
+                    <h3>Current Donations</h3>
+                    <p>Total Amount Raised: $2,45,000</p>
+                    <p>Total Donors: 945</p>
+                </div>
+                <div class="donation-box">
+                    <h3>Top Donors</h3>
+                    <ul>
+                        <li>Rahul Kumar - $2,000</li>
+                        <li>Nisha Kumari - $1,500</li>
+                        <li>Rajesh Singh - $1,200</li>
+                        <li>Anisha Singh - $1,200</li>
+                        <li>Bikash Singh - $1,200</li>
+                        <li>Utkarsh Singh - $1,200</li>
+                    </ul>
+                </div>
+                <div class="donation-box">
+                    <h3>Recent Donations</h3>
+                    <ul>
+                        <li>Anonymous - $100</li>
+                        <li>Suhani Bajoria - $50</li>
+                        <li>Aditi Singh - $200</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./index.js"></script>
+    
+</body>
+
+</html>
